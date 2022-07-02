@@ -231,7 +231,7 @@ def start_program():
 
     print("This is an evolution simulation using a genetic algorithm.")
     print()
-    print("Each 'Goober' has a randomly generated genome consisting of 1's and 0's. With a length of 25.")
+    print("Each 'Goober' has a randomly generated genome consisting of 1's and 0's, with a length of 25.")
     print("Where a 1 appears in the Goobers genome, the corresponding number in a list of numbers from 1-25 is picked.")
     print("Where a 0 appears in the Goobers genome, the corresponding number in a list of numbers from 1-25 is not picked.")
     print("A Goober wants to get the highest number possible from its genome, with the maximum being 325.")
