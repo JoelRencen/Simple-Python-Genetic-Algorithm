@@ -1,7 +1,7 @@
 # Simple-Python-Genetic-Algorithm
 A simple genetic algorithm I created to see how a population of 'Goobers' will solve a simple maths problem through multiple generations with crossingover events and random mutation.
 
-Each 'Goober' has a randomly generated genome consisting of 1's and 0's. With a length of 25.
+Each 'Goober' has a randomly generated genome consisting of 1's and 0's, with a length of 25.
 Where a 1 appears in the Goobers genome, the corresponding number in a list of numbers from 1-25 is picked.
 Where a 0 appears in the Goobers genome, the corresponding number in a list of numbers from 1-25 is not picked.
 A Goober wants to get the highest number possible from its genome, with the maximum being 325.
