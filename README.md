@@ -22,9 +22,14 @@ This allows us to see the percentage change in average time taken to reach the m
 Combined with changing various parameters such as mutation rate/occurrence between simulations, we can see what changes to a Goobers genome allow it to reach the maximum value the fastest, or the slowest!
 
 Recommended starting values:
+
 A population size of 10. This value should always be divisible by 2.
+
 A mutation rate of 5, (denoting a 1/5 change to mutate).
+
 A mutation occurrence of 4.
+
 A crossover rate of 6.
 
-When increasing or decreasing any parameters between simulations, only increase/decrease by a whole number. And check that if you are decreasing a parameter each simulation, you make sure no simulations will have a mutation rate lower than 1/1 chance or that mutation occurrence/crossover rate do no exceed 25.
+When increasing or decreasing any parameters between simulations, only increase/decrease by a whole number. 
+And check that if you are decreasing a parameter each simulation, you make sure no simulations will have a mutation rate lower than 1/1 chance or that mutation occurrence/crossover rate do no exceed 25.
